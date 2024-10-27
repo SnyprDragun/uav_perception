@@ -1,0 +1,8 @@
+prefix=/home/subho/catkin_w_s/src/quadcopter_perception/build/devel
+
+Name: quadcopter_perception
+Description: Description of quadcopter_perception
+Version: 0.0.0
+Cflags: -I/home/subho/catkin_w_s/src/quadcopter_perception/include
+Libs: -L${prefix}/lib -lquadcopter_perception
+Requires: mavros_msgs roscpp rospy

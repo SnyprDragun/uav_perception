@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: quadcopter_perception
+Description: Description of quadcopter_perception
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lquadcopter_perception
+Requires: mavros_msgs roscpp rospy
